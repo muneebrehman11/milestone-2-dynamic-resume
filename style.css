@@ -1,0 +1,108 @@
+* {
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(90deg,#0e0076, #6200ff, #0e0076);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .resume-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: linear-gradient(90deg, #a1000027, #000288,#010211);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 15px 20px 0px rgb(133, 133, 133);
+  }
+  
+   /* #h2-info {
+    color: #ffffff;
+    text-align: center;
+
+  } */
+  
+  input, textarea {
+    width: 30%;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  input:hover, textarea:hover{
+    background: #c0080893;
+  }
+  
+  button {
+    margin-top: 20px;
+    margin-left: 42%;
+
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #053c48;
+  }
+  
+  button:active {
+    background: #000;
+  }
+  
+  #resume-display {
+    max-width: 800px;
+    margin: 50px auto;
+    background: linear-gradient(90deg, #a1000027, #000288,#010211);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 15px 20px 0px rgb(30, 29, 37);
+    text-align: center;
+    color: #ccc;
+    margin-top: 20px;
+    background-color: rgba(58, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+label,input,textarea{
+  margin-left: 34%;
+  color: rgb(255, 255, 255);
+  /* font-weight: 900; */
+}
+
+input,textarea{
+  background: #000;
+}
+
+body {
+  background-image: image-set();
+}
+#resume-display {
+  padding-bottom:0px;
+  padding-left: 10;
+  /* text-align: center; */
+}
+/* #generated-resume{ */
+  /* text-align: center; */
+/* } */
+h1{
+  text-align: center;
+}
+ h2{
+  text-align: center;
+  color: #ffffff;
+ }
+ 
+ p{
+  text-align: center;
+ }
+ h3{
+  text-align: center;
+ }
